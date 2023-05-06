@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.InfoFragment">
+
+    <ScrollView
+        android:id="@+id/info_scroll_view"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/purple_200"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="parent"
+            android:layout_height="0dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/ll1"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manufacturer : "
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/manufacturer_tv"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model name"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/model_name_tv"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model number"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/model_number_tv"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ram"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/ram_tv"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Storage"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/Storage_tv"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Current Battery"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/current_battery_tv"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:visibility="gone"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/android_version_tv"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Camera Pixel"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/camera_pixel_tv"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Camera Aperture"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/camera_aperture_tv"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="Processor : "
+                    android:id="@+id/processor_tv"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GPU : "
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/gpu_tv"
+                    />
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

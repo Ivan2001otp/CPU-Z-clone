@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/info_fragment"
+        android:icon="@drawable/device_information"
+        android:title="Info"
+        />
+    <item
+        android:id="@+id/sensor_fragment"
+        android:title="Sensors"
+        android:icon="@drawable/sensors"
+        />
+</menu>
